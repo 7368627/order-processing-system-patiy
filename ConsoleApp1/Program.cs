@@ -24,7 +24,15 @@ namespace Order_processing_system{
                 Price = price
             };
 
-            Console.WriteLine("Order created!");
+            if (Validator.Validate(order))
+            {  Console.Write("Order created!");
+               Console.WriteLine("\tTotal sum: " + OrderService.CalculateTotal(order));
+            }
+            else
+            {
+                Console.WriteLine("Order could not be created!");
+            }
+            
         }
     }
 }
