@@ -7,4 +7,13 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Content Include="..\.github\CODEOWNERS">
+        <Link>.github\CODEOWNERS</Link>
+      </Content>
+      <Content Include="..\.github\workflows\ci.yml">
+        <Link>.github\workflows\ci.yml</Link>
+      </Content>
+    </ItemGroup>
+
 </Project>
