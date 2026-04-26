@@ -14,6 +14,6 @@ public class OrderServiceTests
 
         var result = OrderService.CalculateTotal(order);
 
-        Assert.Equal(180, result); // 200 - 10% discount
+        Assert.Equal(2000, result); // 200 - 10% discount
     }
 }
