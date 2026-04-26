@@ -11,6 +11,12 @@ public class OrderService
         Console.WriteLine($"Quantity: {order.Quantity}");
         Console.WriteLine($"Price: {order.Price}");
 
-        return order.Quantity * order.Price;
+        decimal total = order.Quantity * order.Price;
+
+        decimal discount = 0.1m; // 10% discount
+
+        Console.WriteLine($"Discount applied: {discount * 100}%");
+
+        return total - (total * discount);
     }
 }
