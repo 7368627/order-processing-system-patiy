@@ -12,3 +12,4 @@ D:\ВУЗ\5 курс\2й семестр\DevOps\ConsoleApp1\ConsoleApp1\obj\Debug
 D:\ВУЗ\5 курс\2й семестр\DevOps\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.pdb
 D:\ВУЗ\5 курс\2й семестр\DevOps\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.genruntimeconfig.cache
 D:\ВУЗ\5 курс\2й семестр\DevOps\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ref\ConsoleApp1.dll
+D:\ВУЗ\5 курс\2й семестр\DevOps\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.sourcelink.json
